@@ -10,12 +10,11 @@ Projekt powstał z myślą o optymalizacji pracy recepcji kempingowej. Program a
 - **System Anty-Spam:** Mechanizm zapobiegający wielokrotnemu wysyłaniu tych samych odpowiedzi do jednego nadawcy w ciągu doby.
 - **Kategoryzacja treści:** Rozpoznawanie tematów zapytań (np. pole namiotowe vs. inne zapytania) na podstawie międzynarodowej listy słów kluczowych.
 - **Zarządzanie treścią (JSON):** Szablony odpowiedzi przechowywane w osobnym pliku `replies.json`, co pozwala na zmianę treści bez ingerencji w kod.
-- **Bezpieczeństwo:** Poświadczenia serwera pocztowego ukryte w zmiennych środowiskowych (`.env`).
 
 ## Struktura plików
 ```text
 ├── main.py              # Główny skrypt programu
 ├── replies.json         # Plik z tłumaczeniami (PL, EN, DE, CS)
-├── .env                 # Plik konfiguracyjny (email, hasło) - NIE publikować na GitHub!
+├── .env                 # Plik konfiguracyjny (email, hasło) - należy dodatkowo stworzyć
 ├── replied_emails.txt   # Baza danych obsłużonych kontaktów (generowana automatycznie)
 └── README.md            # Dokumentacja projektu
