@@ -1,0 +1,26 @@
+{
+    "pl": {
+        "temat_pole": "Re: Informacja o polu kempingowym",
+        "tresc_pole": "(Prosimy nie odpowiadać na tę wiadomość, jest to auto-odpowiedź)\n\nDzień dobry,\n\nDziękujemy za kontakt z naszym kempingiem! \nInformujemy, że na pole kempingowe (namioty, przyczepy, campery) NIE prowadzimy rezerwacji miejsc. \nDysponujemy dużym terenem, więc zapraszamy bezpośrednio na miejsce – na pewno znajdzie się dla Państwa przestrzeń.\n\nPozdrawiamy,\nEkipa kempingu (Automatyczna Sekretarka)",
+        "temat_ogolny": "Potwierdzenie otrzymania wiadomości",
+        "tresc_ogolna": "(Prosimy nie odpowiadać na tę wiadomość, jest to auto-odpowiedź)\n\nDzień dobry,\n\nDziękujemy za kontakt. Twoja wiadomość dotarła do naszej recepcji. \nNasz pracownik skontaktuje się z Państwem w ciągu 2-3 dni roboczych.\n\nPozdrawiamy,\nEkipa kempingu(Automatyczna Sekretarka)"
+    },
+    "en": {
+        "temat_pole": "Re: Camping site information",
+        "tresc_pole": "(Please do not reply to this message, it is an auto-reply)\n\nHello,\n\nThank you for contacting our campsite! \nPlease be informed that we do NOT take reservations for the camping area (tents, caravans, campers). \nWe have a large area, so we invite you to come directly – there will definitely be space for you.\n\nBest regards,\nCamping Team (Auto-Assistant)",
+        "temat_ogolny": "Message received",
+        "tresc_ogolna": "(Please do not reply to this message, it is an auto-reply)\n\nHello,\n\nThank you for your message. Your inquiry has reached our reception. \nOur staff will contact you within 2-3 business days.\n\nBest regards,\nCamping Team (Auto-Assistant)"
+    },
+    "de": {
+        "temat_pole": "Re: Informationen zum Campingplatz",
+        "tresc_pole": "(Bitte antworten Sie nicht auf diese Nachricht, dies ist eine automatische Antwort)\n\nGuten Tag,\n\nVielen Dank für Ihr Interesse an unserem Campingplatz! \nWir möchten Sie informieren, dass wir für den Campingplatz (Zelte, Wohnwagen, Wohnmobile) KEINE Reservierungen vornehmen. \nWir verfügen über ein großes Areal, kommen Sie also gerne direkt vorbei – wir finden sicher einen Platz für Sie.\n\nMit freundlichen Grüßen,\nIhr Camping Team (Automatischer Assistent)",
+        "temat_ogolny": "Empfangsbestätigung",
+        "tresc_ogolna": "(Bitte antworten Sie nicht auf diese Nachricht, dies ist eine automatische Antwort)\n\nGuten Tag,\n\nVielen Dank für Ihre Nachricht. Ihre Anfrage ist bei uns eingegangen. \nUnser Team wird sich innerhalb von 2-3 Werktagen bei Ihnen melden.\n\nMit freundlichen Grüßen,\nIhr Camping Team (Automatischer Assistent)"
+    },
+    "cs": {
+        "temat_pole": "Re: Informace o kempu",
+        "tresc_pole": "(Na tuto zprávu neodpovídejte, jedná se o automatickou odpověď)\n\nDobrý den,\n\nděkujeme, že jste nás kontaktovali! \nInformujeme vás, že pro kempovací plochu (stany, přívěsy, obytné vozy) NEPROVÁDÍME rezervace míst. \nMáme k dispozici velký areál, proto vás zveme přímo k nám – místo pro vás určitě najdeme.\n\nS pozdravem,\nTým Camping (Automatická sekretářka)",
+        "temat_ogolny": "Potvrzení přijetí zprávy",
+        "tresc_ogolna": "(Na tuto zprávu neodpovídejte, jedná se o automatickou odpověď)\n\nDobrý den,\n\nděkujeme za zprávu. Váš dotaz dorazil na naši recepci. \nNáš pracovník vás bude kontaktovat během 2-3 pracovních dnů.\n\nS pozdravem,\nTým Camping (Automatická sekretářka)"
+    }
+}
