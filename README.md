@@ -18,6 +18,7 @@ Projekt powstał z myślą o optymalizacji pracy recepcji kempingowej. Program a
 ├── .env                 # Plik konfiguracyjny (email, hasło) - należy dodatkowo stworzyć
 ├── replied_emails.txt   # Baza danych obsłużonych kontaktów (generowana automatycznie)
 └── README.md            # Dokumentacja projektu
+```
 
 ## Instalacja i Uruchomienie
 
@@ -27,7 +28,7 @@ Projekt powstał z myślą o optymalizacji pracy recepcji kempingowej. Program a
 
 2. **Konfiguracja środowiska**
     Stwórz plik .env w katalogu głównym i uzupełnij go:
-    EMAIL_USER=twoj-email@gmail.com
+    EMAIL_USER=twoj-email@_.com         
     EMAIL_PASS=twoje-haslo-aplikacji
 
 3. **Uruchomienie analizy**
