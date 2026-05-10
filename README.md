@@ -1,36 +1,36 @@
-# Automatyczna sekretarka dla kempingu 
+# Camping Auto-Receptionist
 
-### Inteligentny asystent e-mailowy z detekcją języka i systemem anty-spam.
+### An intelligent email assistant featuring language detection and anti-spam mechanisms.
 
-## O projekcie
-Projekt powstał z myślą o optymalizacji pracy recepcji kempingowej. Program automatyzuje obsługę zapytań e-mailowych, odciążając pracowników od odpowiadania na powtarzające się pytania (np. o dostępność pola namiotowego). System potrafi rozpoznać język klienta i wysłać odpowiedź w jego ojczystym języku.
+## About the Project
+This project was designed to optimize the workflow of a campsite reception desk. The program automates email inquiry handling, freeing staff from answering repetitive questions (e.g., regarding campsite availability). The system automatically detects the customer's language and sends a professional response in their native tongue.
 
-## Główne funkcjonalności
-- **Wielojęzyczność:** Automatyczna detekcja języka (PL, EN, DE, CS) za pomocą biblioteki `langdetect`.
-- **System Anty-Spam:** Mechanizm zapobiegający wielokrotnemu wysyłaniu tych samych odpowiedzi do jednego nadawcy w ciągu doby.
-- **Kategoryzacja treści:** Rozpoznawanie tematów zapytań (np. pole namiotowe vs. inne zapytania) na podstawie międzynarodowej listy słów kluczowych.
-- **Zarządzanie treścią (JSON):** Szablony odpowiedzi przechowywane w osobnym pliku `replies.json`, co pozwala na zmianę treści bez ingerencji w kod.
+## Key features
+- **Multilingual Support:** Automatic language detection (PL, EN, DE, CS) using the `langdetect` library.
+- **Anti-Spam System:** A mechanism that prevents sending duplicate automated responses to the same sender within a 24-hour period.
+- **Content Categorization:** Recognition of inquiry topics (e.g., tent pitches vs. general inquiries) based on an international keyword list.
+- **Content Management (JSON):** Response templates are stored in a separate `replies.json` file, allowing for easy content updates without modifying the source code.
 
-## Struktura plików
+## File Structure
 ```text
-├── main.py              # Główny skrypt programu
-├── replies.json         # Plik z tłumaczeniami (PL, EN, DE, CS)
-├── .env                 # Plik konfiguracyjny (email, hasło) - należy dodatkowo stworzyć
-├── replied_emails.txt   # Baza danych obsłużonych kontaktów (generowana automatycznie)
-└── README.md            # Dokumentacja projektu
+├── main.py              # Main application script
+├── replies.json         # Translation file (PL, EN, DE, CS)
+├── .env                 # Configuration file (email, password) - to be created manually
+├── replied_emails.txt   # Log database of handled contacts (auto-generated)
+└── README.md            # Project documentation
 ```
 
-## Instalacja i Uruchomienie
+## Installation and Setup
 
-1. **Instalacja zależności**
+1. **Install Dependencies**
    ```bash
    pip install python-dotenv python-dotenv
 
-2. **Konfiguracja środowiska**
-    Stwórz plik .env w katalogu głównym i uzupełnij go:
-    EMAIL_USER=twoj-email@_.com         
+2. **Environment Configuration**
+    Create a .env file in the root directory and fill in your credentials:         
+    EMAIL_USER=twoj-email@_.com           
     EMAIL_PASS=twoje-haslo-aplikacji
 
-3. **Uruchomienie analizy**
+4. **Run the Application**
    ```bash
    python main.py
