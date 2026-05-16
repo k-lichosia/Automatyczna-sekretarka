@@ -16,8 +16,8 @@ load_dotenv()
 LOG_FILE = "replied_emails.txt"
 EMAIL_USER = os.getenv("EMAIL_USER")
 EMAIL_PASS = os.getenv("EMAIL_PASS")
-IMAP_SERVER = "imap.gmail.com" #uzupełnij odpowiednimi danymi (np. "imap.poczta.onet.pl" dla Gmaila)
-SMTP_SERVER = "smtp.gmail.com" #uzupełnij odpowiednimi danymi (np. "smtp.poczta.onet.pl" dla Gmaila)
+IMAP_SERVER = "imap.gmail.com" #fill with correct data (np. "imap.poczta.onet.pl" for Onet mailbox)
+SMTP_SERVER = "smtp.gmail.com" #fill with correct data (np. "smtp.poczta.onet.pl" dla Onet mailbox)
 
 def wczytaj_tlumaczenia():
     with open('replies.json', 'r', encoding='utf-8') as f:
