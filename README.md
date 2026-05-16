@@ -28,8 +28,8 @@ This project was designed to optimize the workflow of a campsite reception desk.
 
 2. **Environment Configuration**
     Create a .env file in the root directory and fill in your credentials:         
-    EMAIL_USER=twoj-email@_.com           
-    EMAIL_PASS=twoje-haslo-aplikacji
+    EMAIL_USER=your_email@_._          
+    EMAIL_PASS=your_app_password
 
 4. **Run the Application**
    ```bash
